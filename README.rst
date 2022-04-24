@@ -17,11 +17,14 @@ What would you need R***ian letters on your keyboard anyway? Just use Ukrainian 
 How to install
 --------------
 
-* Copy 'Cyrillic bilingual.bundle' into /Library/Keyboard\\ Layouts like this:
+* Download code as ZIP
+* Right-click on `*.bundle` file and select "Open with..." > "Keyboard Installer.app". 
+
+Or copy 'Cyrillic bilingual.bundle' into /Library/Keyboard\\ Layouts like this:
 
 .. code-block::
 
-    cd /tmp && git clone https://github.com/muromec/bandera-layout.git
+    cd /tmp && git clone https://github.com/dshemendiuk/bandera-layout.git
     cp -r bandera-layout/Cyrillic\ bilingual.bundle ~/Library/Keyboard\ Layouts/
 
 * Go to language preferences, press "+" button and add "Cyrillic bilingual" layout from "English" group.
